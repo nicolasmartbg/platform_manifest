@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <!-- osprey -->
+  <project path="device/motorola/osprey" name="devestage/device_motorola_osprey" remote="github" revision="o" >
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" >
+  <project path="kernel/motorola/msm8916" name="devestage/android_kernel_motorola_msm8916" remote="github" revision="o" >
+
+</manifest>
